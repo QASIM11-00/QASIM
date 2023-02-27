@@ -557,7 +557,7 @@ def Subscraption():
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
-		
+		QAS_Main():
 	else:
 		os.system("clear")
 		print(logo)
@@ -585,5 +585,3 @@ def Subscraption():
 		os.system('am start https://wa.me/+923173289687?text=' + tks)
 		Subscraption()        
 Subscraption()
-exit()
-QAS_Main()
