@@ -89,12 +89,11 @@ imt="-QAS=="
 ak=" QASIM-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
-	key1 = open('/data/data/com.termux/files/usr/lib/python3.11', 'r').read()
+	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 except:
-	kok=open('/data/data/com.termux/files/usr/lib/python3.11', 'w')
+	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
-	def QAS_Main()
 ##Logo##
 P = '\x1b[1;97m'
 G='\x1b[1;92m'
@@ -122,6 +121,7 @@ logo= f'''
 \033[1;93m=================================
 '''
 ####@-----Menu-----@####
+def QAS_Main():
 	
     os.system("clear")
     print(logo)
@@ -547,8 +547,8 @@ def andom():
     
 ####@-----Subscription-----@####
 def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/lib/python3.11', 'r').read()
-      clear()
+	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
+     
 	print(logo)
 	r1=requests.get("https://github.com/QASIM11-00/QAS/blob/main/Approval.txt").text
 	if key1 in r1:
