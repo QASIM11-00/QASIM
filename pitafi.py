@@ -81,22 +81,19 @@ Mozilla/5.0 (Linux; Android 11; Infinix X689B) AppleWebKit/537.36 (KHTML, like G
 """
 
 ua=[]
-def login():
+def back():
 	login()
 
-ah="Approve-"
-imt="-QAS=="
-ak="QASIM-"
+ah="TRICKER-"
+imt="-M4786=="
+ak=" ALIYAN-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
 except:
-	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'w')
+	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov ', 'w')
 	kok.write(myid+imt)
 	kok.close()
-	try:
-		token = open('.token.txt','r').read()
-		tokenku.append(token)
 ##Logo##
 P = '\x1b[1;97m'
 G='\x1b[1;92m'
@@ -123,9 +120,9 @@ logo= f'''
 \033[1;92m Notice : Use 100089/100090 For More OK Ids :/
 \033[1;93m=================================
 '''
-####@-----Menu-----@####
 
-	def QAS_Main():
+####@-----Menu-----@####
+def QAS_Main ():
     os.system("clear")
     print(logo)
     print(f"{oo(1)}File Cloning")
@@ -548,16 +545,15 @@ def andom():
        with speed(max_workers=30) as speede:
             speede.map(start, accounts)
     
-####@-----Subscription-----@####
 def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
-
+	
 	print(logo)
 	r1=requests.get("https://github.com/QASIM11-00/QAS/blob/main/Approval.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
-		QAS_Main():
+		Main()
 	else:
 		os.system("clear")
 		print(logo)
@@ -567,7 +563,7 @@ def Subscraption():
 		print(logo)
 		print ("")
 		print(" \033[1;32m You Need Get Approved First\033[1;37m\n")
-		print(" \033[1;32m Note : THIS IS A PAID TOOL ONLY 100P  \033[1;37m")
+		print(" \033[1;32m Note : 100 PKR only   \033[1;37m")
 		print ("")
 		print(" Your Key is Not Approved ")
 		print("")
@@ -577,11 +573,14 @@ def Subscraption():
 		print ("")
 		name = input(" Your Name : ")
 		print ("")
-		
+		lol = input(" Your Your Email : ")
 		print ("")
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
-		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20' +ak+ah+key1
+		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Email%20:%20'+lol+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ah+key1
 		os.system('am start https://wa.me/+923173289687?text=' + tks)
 		Subscraption()        
 Subscraption()
+
+exit()
+QAS_Main()
