@@ -94,6 +94,7 @@ except:
 	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
+	def QAS_Main():
 ##Logo##
 P = '\x1b[1;97m'
 G='\x1b[1;92m'
@@ -121,7 +122,7 @@ logo= f'''
 \033[1;93m=================================
 '''
 ####@-----Menu-----@####
-def QAS_Main():
+
 	
     os.system("clear")
     print(logo)
