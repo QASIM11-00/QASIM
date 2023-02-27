@@ -84,9 +84,9 @@ ua=[]
 def back():
 	login()
 
-ah="TRICKER-"
-imt="-M4786=="
-ak=" ALIYAN-"
+ah="QAS-"
+imt="-M1234=="
+ak=" QASIM-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
 	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
@@ -94,6 +94,10 @@ except:
 	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov ', 'w')
 	kok.write(myid+imt)
 	kok.close()
+        def login():
+	try:
+		token = open('.token.txt','r').read()
+		tokenku.append(token)
 ##Logo##
 P = '\x1b[1;97m'
 G='\x1b[1;92m'
