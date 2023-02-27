@@ -94,7 +94,6 @@ except:
 	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
-	def login():
 	try:
 		token = open('.token.txt','r').read()
 		tokenku.append(token)
