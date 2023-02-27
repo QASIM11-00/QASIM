@@ -89,11 +89,12 @@ imt="-QAS=="
 ak=" QASIM-"
 myid=uuid.uuid4().hex[:10].upper()
 try:
-	key1 = open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
+	key1 = open('/data/data/com.termux/files/usr/lib/python3.11', 'r').read()
 except:
-	kok=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'w')
+	kok=open('/data/data/com.termux/files/usr/lib/python3.11', 'w')
 	kok.write(myid+imt)
 	kok.close()
+	def QAS_Main()
 ##Logo##
 P = '\x1b[1;97m'
 G='\x1b[1;92m'
@@ -121,7 +122,6 @@ logo= f'''
 \033[1;93m=================================
 '''
 ####@-----Menu-----@####
-def QAS_Main():
 	
     os.system("clear")
     print(logo)
@@ -547,8 +547,8 @@ def andom():
     
 ####@-----Subscription-----@####
 def Subscraption():
-	key1=open('/data/data/com.termux/files/usr/bin/.mrBALOCH -cov', 'r').read()
-
+	key1=open('/data/data/com.termux/files/usr/lib/python3.11', 'r').read()
+      clear()
 	print(logo)
 	r1=requests.get("https://github.com/QASIM11-00/QAS/blob/main/Approval.txt").text
 	if key1 in r1:
@@ -574,14 +574,10 @@ def Subscraption():
 		print ("")
 		name = input(" Your Name : ")
 		print ("")
-		gf = input(" Your gf Name : ")
-		print ("")
-		lol = input(" Your Your Email : ")
-		print ("")
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Email%20:%20'+lol+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ah+key1
-		os.system('am start https://wa.me/+923344706269?text=' + tks)
+		os.system('am start https://wa.me/qr/VYNAVMHN45GNJ1?text=' + tks)
 		Subscraption()        
 Subscraption()
 exit()
